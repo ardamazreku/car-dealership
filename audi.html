@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="icon" href="images/audilogo.png" type="image/gif" sizes="16x16">
+	<title> AUDI </title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-16"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="style/audi.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo|Libre+Baskerville" rel="stylesheet">
+	</head>
+	<body>
+	<div>
+		<div id="login">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="audi.html">AUDI</a></li>
+			<li><a href="landrover.html">LAND ROVER</a></li>
+			<li><a href="bmw.html">BMW</a></li>
+			<li style="float:right"><a href="login.html">LOG IN</a></li>
+			<li style="float:right"><a href="signup.html">SIGN UP</a></li>
+		</ul>
+		</div>
+		<article>
+			<p class="span1">The world of Audi</p>
+			<p class="text">Discover Audi as a brand, company and employer on our international website. <br>
+			Here you will find information about models and technologies. Inspiring content, interesting
+			backgrounds and fascinating moments — digital, individual <br> and authentic. Experience our 
+			vision of mobility and let yourself be inspired.</p>
+			
+			<div style="width:42vw; height:130vh; float:left; padding:2vw">
+			<p class="span1" style="text-transform:none; text-align:left">Reflections of Audi Brussels</p>
+			<p class="text" >
+			Audi’s first electric car, an SUV with quattro technology, is ready to take to the road. <br>
+			To celebrate this e-storical event, Audi asked two world-famous photographers from Magnum Photos,<br>
+			Paolo Pellegrin and Gueorgui Pinkhassov, to spend five days at its resource-efficient production plant in Brussels.</p>
+			<img  id ="myImage" src="images/audi3.jpg" style="float:center;width:40vw; height:35vh">
+			<p>
+				<button type="button" onclick="audi(1)" class="bttn">Picture 1</button>
+				<button type="button" onclick ="audi(0)">Picture 2 </button>
+				<button type="button" onclick="audi(2)">Picture 3 </button>
+				<button type="button" onclick ="audi(3)">Picture 4 </button>
+			</p>
+			<p class="text" style="float:center">Pellegrin and Pinkhassov were fascinated by the site — a historic factory converted into a groundbreaking laboratory for a 
+			resource-efficient production process — and intrigued by the grace and strength of the robots, which assist the highly specialized workers. While high tech is 
+			clearly key to the production of electric cars and the development of Audi e-tron technology, the series of photos produced by Pellegrin and Pinkhassov shows how
+			production still relies heavily on human ingenuity, care and passion. The body of work the two photographers produced at Audi Brussels is already a vibrant and
+			electrifying record of the e-story of mobility.</p>
+			<p class="text" style="float:center; font-style:italic; font-weight:bold"> "As a photographer, I am a silent witness who uses light to intervene in a scene and transform it."
+			- Paolo Pellegrin </p>
+			</div>
+			
+			<div style="width:42vw; height:130vh; float:left; padding:2vw; margin-left:5vw;">
+			<p class="text" style="float:center">
+			<span class="span1" style="text-transform:none; text-align:center">How the Audi control concepts have developed</span><br><br>
+			Virtual cockpit, MMI, or head-up display: the Audi control concepts have reached the pinnacle of their development in
+			the Audi A8 — intuitive, connected, and up-to-date. It’s never been this easy: See how the Audi control concepts have developed thus far.</p>
+			<img src="images/audi4.jpg" style="float:center;width:40vw; height:35vh">
+			<p class="text" style="float:center"> Massive rocker switches, push buttons, and a dashboard full of switches: in the Audi 100, you can revel in the nostalgia overload. But
+			for all the charm the analog displays might have, they just aren’t up-to-date anymore. The modern Audi control concepts, on the other hand,
+			are real all-rounders. And they have to be. “The demands of traffic conditions are much higher nowadays, and the conditions are more extreme. 
+			With the increase in traffic and higher driving speeds, the Audi cockpit and control concepts take on much greater importance than they previously 
+			did,” says Ivo Muth, head of user interface / user experience development. Every day, he and his colleagues work to make the Audi control concepts 
+			even more intuitive and easy to understand.</p>
+			</div>
+		</article>
+		
+		<div class="content2">
+			<div class="pw">			
+				<img src="images/audisport.jpg" style="float:left; padding:4vw; padding-top:10vw; width:50vw;height:45vh">
+				<p class="text2" style="padding-top:13vw"> Audi Sport </p>
+				<p class="text2"><span style="font-size:3vw">Audi Sport</span><br><br>
+				Experience motorsport up close and cheer with our Audi Sport teams at every race. With the Audi R8 and the Audi RS models you can turn roads into racetracks.</p>
+				<a href="https://www.audi.com/en/experience-audi/audi-sport.html"><div class="button"> Read more </a></div>
+			</div>
+		</div>
+			
+		<div class="content2">
+			<div class="pw2">			
+				<img src="images/audi2.jpg" style="float:left; padding:4vw; padding-top:10vw; width:50vw;height:45vh">
+				<p class="text2" style="padding-top:13vw"> Models & Technology </p>
+				<p class="text2"><span style="font-size:3vw"> Models & Technology </span><br>
+				Serial models
+				Whether sporty, luxurious or compact - at Audi you will find the right vehicle for every requirement. Discover our series vehicles!</p>
+				<a href="https://www.audi.com/en/experience-audi/models-and-technology/serial-models.html"><div class="button"> Read more </a></div>
+			</div>
+		</div>
+		
+		<footer id="end"><br><br><br><br><br>
+			<p class="text" style="color:white; text-align:center">&copy; ARDA MAZREKU. All rights reserved. </p>
+		</footer>
+
+		<script>
+			function audi(sw) { 
+			var pic;
+			
+			if (sw == 0) {
+			
+			pic = "images/audiref.jpg"
+			}
+			
+			else if (sw == 1) {
+			
+			pic= "images/audi3.jpg"
+			}
+			
+			else if (sw == 2) {
+			pic = "images/audiref2.jpg"
+			}
+			
+			else {
+			pic="images/audiref3.jpg"
+			}
+			document.getElementById("myImage").src = pic;
+			}
+		</script>
+		
+	</div>	
+	</body>
+</html>		

@@ -1,0 +1,137 @@
+html{
+	overflow:hidden;
+}
+body {
+	margin:0;
+	height:100vh;
+	perspective:1px;
+	transform-style:preserve-3d;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+#login{
+	width:100vw;
+	height:7vh;
+	background-color:black;
+}
+article {
+	-webkit-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+	background-color: #f1f1f1;
+	padding: 10px;
+	width:100vw;
+	height:80vh;
+	z-index:2;
+	overflow: scroll;
+}
+.p1{
+	font-family: 'Libre Baskerville', serif;
+	font-size:14px;
+	margin-left:91vw;
+	color:white;
+	border-left: 4px double white;
+	padding:7px;
+}
+.rw {
+	width:100vw;
+	height:100vh;
+	padding-top:20vh;
+	background-image:url("../images/rangerover.jpg");
+	background-size: cover;
+	z-index:2;
+	position:relative;
+}	
+.rw2 {
+	float:center;
+	width:100vw;
+	height:100vh;
+	padding-top:20vh;
+	background-image:url("../images/rangerover2.jpg");
+	background-size: cover;
+	z-index:0;
+	position:relative;
+}	
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+li {
+	float: left;
+}
+li a {
+	font-family: 'Exo', sans-serif;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1vw 2vh;
+	text-decoration: none;
+	transition-timing-function: ease-out;
+	font-size:1.3vw;
+}
+li a:hover {
+	transition: 1.3s;
+	background: rgba(255,255,255,0.8);
+	color:black;
+	font-size:1.5vw;
+}
+.content1 {
+	margin: 0 auto;
+	float:left;
+	padding:3vw;
+	width:50vw;
+	background: rgba(255,255,255,0.5);
+	transition:2s;
+	transition-timing-function:ease-out;
+}
+.text{
+	font-size: 1.25vw;
+	font-family: 'Exo', sans-serif;
+	color:black;
+}
+:link{
+	text-decoration: none;
+	color:white
+}
+a:visited{
+	color:white
+}	
+.span1{
+	font-family: 'Exo', sans-serif;
+	float:center;
+	font-weight:bold;
+	font-size:2.5vw;
+	text-transform:uppercase;
+}	
+.button{
+	font-family: 'Exo', sans-serif;
+	font-size: 1.6vw;
+	text-transform:uppercase;
+	margin-left:13vw;
+	text-align:center;
+	padding:2vw;
+	border:1px solid black;
+	width:14vw;
+	height:2.5vh;
+	background: rgba(0,0,0,0.8);
+	transition-timing-function:ease-out;
+	transition:2s;
+}
+.button:hover{
+	width:15vw;
+	height:3vh;
+	background: rgba(255,255,255,0.8);
+	color:black;
+	font-size:1.8vw;
+}
+#end{
+	background-color:black;
+	width:100vw;
+	height:40vh;
+}

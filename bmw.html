@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="icon" href="images/bmwlogo.png" type="image/gif" sizes="16x16">
+	<title> BMW </title>
+	<meta http-equiv="content-type" content="text/html">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="style/bmw.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo|Libre+Baskerville" rel="stylesheet">
+	</head>
+	<body>
+	<div>
+		<div id="login">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="audi.html">AUDI</a></li>
+			<li><a href="landrover.html">LAND ROVER</a></li>
+			<li><a href="bmw.html">BMW</a></li>
+			<li style="float:right"><a href="login.html">LOG IN</a></li>
+			<li style="float:right"><a href="signup.html">SIGN UP</a></li>
+		</ul>
+		</div>
+		
+		<div class="rw">
+				<div class="content1">
+					<p class="text">
+					<span class="span1"> THE ORIGINAL SPORTS <br> SEDAN RETURNS. </span><br>
+					THE ALL-NEW BMW 3 SERIES.</p>
+					<a href="https://www.bmwusa.com/vehicles/3-series/sedan/overview.html"><div class="button"> LEARN MORE </div></a>
+				</div>
+		</div>		
+		
+		<article>
+			<div class="rw2">
+				<a href="https://www.bmwusa.com/limited-edition-vehicles/m4-limited-edition.html"/>
+				<div class="content2">
+					<p class="text2">
+					<span class="span2"> REFINED ADRENALINE </span><br>
+					Limited Edition M4 CS.</p>
+				</div>
+			</div>
+				
+			<div class="rw3">
+			<a href="https://www.bmwusa.com/limited-edition-vehicles/m3-limited-edition.html"/>
+				<div class="content2">
+					<p class="text2">
+					<span class="span2"> PUSH POWER TO NEW HEIGHTS </span><br>
+					Limited Edition M3 CS. </p>
+				</div>
+			</div>
+			
+			<div class="rw4">
+			<a href="https://www.bmwusa.com/vehicles/x-models/x2/sports-activity-coupe/overview.html">
+				<div class="content2">
+					<p class="text2">
+					<span class="span2"> INFLUENCE INFLUENCERS </span><br>
+					The First-Ever BMW X2.</a></p>
+				</div>
+			</div>
+
+			<center><img src="images/bmw4.jpg" id="myImage" style="width:60vw; height:65vh; margin-top:2vw;"></center>
+			<p>
+				<button type="button" onclick="bmw(1)" class="bttn"> Picture 1 </button>
+				<button type="button" onclick ="bmw(0)"> Picture 2 </button>
+				<button type="button" onclick ="bmw(2)"> Picture 3 </button>
+				<button type="button" onclick ="bmw(3)"> Picture 4 </button>
+			</p>
+		</article>
+			
+			<div class="rw5">
+				<div class="content3">
+					<p class="text">
+					<span class="span1"> PURE PERFORMANCE </span><br>
+					WITH $4,374 DUE AT SIGNING NOW THROUGH <br> MAY 5TH.</p>
+					<a href="https://www.bmwusa.com/special-offers/lease.2019-X3-xDrive30i.html?modal=special-offers-legal"><div class="button"> LEARN MORE </div></a>
+				</div>
+			</div>		
+			
+			<footer id="end"><br><br><br><br><br><br><br><br><br><br><br>
+			<p class="text" style="color:white; text-align:center">&copy; ARDA MAZREKU. All rights reserved. </p>
+			</footer>
+			
+			<script>
+			function bmw(sw) { 
+			var pic;
+			
+			if (sw == 0) {
+			
+			pic = "images/bmw7.jpg"
+			}
+			
+			else if (sw == 1) {
+			
+			pic= "images/bmw4.jpg"
+			}
+			
+			else if (sw == 2) {
+			pic = "images/bmw2.jpg"
+			}
+			
+			else {
+			pic="images/bmw5.jpg"
+			}
+			document.getElementById("myImage").src = pic;
+			}
+			</script>	
+	</div>
+	</body>
+</html>	

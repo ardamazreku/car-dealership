@@ -1,0 +1,106 @@
+html{
+	overflow:hidden;
+}
+#login{
+	width:100vw;
+	height:5vh;
+	background-color:black;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+li {
+	float: left;
+}
+li a {
+	font-family: 'Exo', sans-serif;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1vw 2vh;
+	text-decoration: none;
+	transition-timing-function: ease-out;
+	font-size:1.3vw;
+}
+li a:hover {
+	transition: 1.3s;
+	background: rgba(255,255,255,0.8);
+	color:black;
+	font-size:1.5vw;
+}
+
+#end{
+	background-color:black;
+	width:100vw;
+	height:50vh;
+}
+
+* {box-sizing: border-box}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
